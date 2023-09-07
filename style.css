@@ -1,0 +1,413 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.root {
+    --primary-color: #fff;
+    --secondary-color: #333;
+    --main-color: #c244c2;
+}
+
+body {
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    margin: 0;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 18px 7%;
+    background: #c244c2;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+
+.header img {
+    height: 50px;
+    margin-left: 70px;
+}
+
+.navbar a {
+    font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 30px;
+    font-weight: 700;
+    transition: 0.5s;
+   
+}
+
+/* .navbar a:hover{
+    background-color: #00000050;
+    padding: 12px;
+    border-radius: 16px;
+} */
+
+.search {
+    border: 1px solid #fff;
+    padding: 0.4rem 0.9rem;
+    border-radius: 999px;
+    color: #fff;
+    margin-left: auto;
+}
+
+.search input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.search input::placeholder {
+    color: #fff;
+}
+
+#landingpage{
+   object-fit: cover;
+   display: flex;
+   margin-top: 5rem;
+   height: 55rem;
+}
+
+.img-landing img{
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 2rem 8rem;
+    gap: 6rem;
+}
+
+.text-content {
+    flex: 1;
+}
+.text-content a {
+    display: inline-block;
+    padding: 10px 25px;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, .2);
+    border-width: 2px;
+    border-style: solid;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 700;
+    width: 10.5rem;
+    transition: 0.5s;
+    margin-top: 24px;
+}
+
+.image-content {
+    flex: 1;
+}
+
+.text1 p {
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.img1 img {
+    width: 35rem;
+}
+
+.img-overlay {
+    background-color: #F9F6CD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    gap: 3.5rem;
+}
+
+.img-overlay img {
+    width: 5rem;
+}
+
+.container-2 {
+    background-color: #F9F6CD;
+    padding: 0 20rem;
+    gap: 7rem;
+}
+
+.img2 img {
+    width: 22rem;
+}
+
+.text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.text2 h2 {
+    font-size: 48px;
+}
+
+.text2 p {
+    width: 34rem;
+    line-height: 2rem;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.text2 a {
+    border-color: #FFCB95;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.text2 a:hover {
+    border-color: #333;
+    background-color: #FFCB95;
+    color: #333;
+}
+
+.container-3 {
+    background-color: #C244C2;
+    height: 70vh;
+    padding: 0 10rem;
+    gap: 1rem;
+}
+
+.text3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.img3 img {
+    width: 32rem;
+}
+
+.text3 h2 {
+    font-size: 45px;
+}
+
+.text3 p {
+    line-height: 2rem;
+    width: 32rem;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.text3 a {
+    border-color: #FFCB95;
+    background-color: white;
+    color: #333;
+}
+
+.text3 a:hover {
+    border-color: #333;
+    background-color: #FFCB95;
+    color: #333;
+}
+
+.container-4 {
+    height: 70vh;
+    padding: 0 12rem;
+    gap: 3rem;
+}
+
+.img4 img {
+    width: 36rem;
+}
+
+.text4 h2 {
+    font-size: 45px;
+}
+
+.text4 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text4 p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.text4 a {
+    border-color: #FFCB95;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.text4 a:hover {
+    border-color: #333;
+    background-color: #FFD200;
+    color: #333;
+}
+
+.container-5 {
+    height: 60vh;
+    padding: 0 14rem;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.text5 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text5 p {
+    width: 30rem;
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.text5 h2 {
+    font-size: 45px;
+}
+
+.img5 img {
+    width: 32rem;
+}
+
+.text5 a {
+    border-color: #333;
+    background-color: #fff;
+    color: #333;
+}
+
+.text5 a:hover {
+    border-color: #6C3F4F;
+    background-color: #FFDCE8;
+    color: #6C3F4F;
+}
+
+.container-6 {
+    padding: 0 14rem;
+    gap: 1rem;
+    height: 65vh;
+}
+
+.img6 img {
+    width: 28rem;
+}
+
+.text6 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text6 h2 {
+    font-size: 45px;
+}
+
+.text6 p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 18px;
+    width: 32rem;
+}
+
+.text6 a {
+    border-color: #fff;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.text6 a:hover {
+    border-color: #fff;
+    background-color: #DA3226;
+    color: #fff;
+}
+
+.container-7 {
+    padding: 0 14rem;
+    gap: 8rem;
+    height: 70vh;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.img7 img {
+    width: 26rem;
+}
+
+.text7 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text7 h2 {
+    font-size: 45px;
+}
+
+.text7 p {
+    text-align: justify;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.text7 a {
+    border-color: #FFD200;
+    background-color: #fff;
+    color: #333;
+}
+
+.text7 a:hover {
+    border-color: #333;
+    background-color: #FFD200;
+    color: #333;
+}
+
+.container-8 {
+    padding: 0 16rem;
+    gap: 5rem;
+    height: 40vh;
+}
+
+.img8 img{
+    width: 30rem;
+}
+
+.text8 {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.text8 h2 {
+    font-size: 45px;
+}
+
+.text8 p {
+    width: 30rem;
+    line-height: 2rem;
+    font-size: 18px;
+}
+
+.text8 a {
+    border-color: #fff;
+    background-color: #C244C2;
+    color: #fff;
+}
+
+.text8 a:hover {
+    border-color: #333;
+    background-color: #B6FCC9;
+    color: #665243;
+}
